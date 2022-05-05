@@ -1,0 +1,59 @@
+#time{
+  color: white;
+  opacity: 1;
+  font-size: 4em;
+
+
+}
+#day{
+  color: white;
+  opacity: 1;
+  font-size: 2em;
+
+}
+
+
+#weat {
+  position: absolute;
+  width: 20%;
+  length: 20%;
+  top: 50%;
+  left: 5%;
+
+}
+
+#image{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 500px;
+  height: 500px;
+
+}
+body {
+  font-family: myFirstFont;
+  background-image: url("wallpapers/rickmorty-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+#block {
+  font-family: myFirstFont;
+  position: absolute;
+  opacity: 0.8;
+  box-shadow: 10px 10px 20px black;
+  top: 20%;
+  left: 5%;
+  border-radius: 20px;
+  background: rgb(32,121,115);
+  padding: 20px; 
+  width: 40%;
+  height: 30%;  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(TitilliumWeb-Regular.ttf);
+}
+
