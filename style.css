@@ -14,6 +14,53 @@
 
 
 }
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+#bsod{
+  background-image: url("wallpapers/bsod.webp");
+
+}
+#day{
+  background-image: url("wallpapers/day.webp");
+
+}
+#godzilla{
+  background-image: url("wallpapers/godzilla.webp");
+
+}
+#jurassicstory{
+  background-image: url("wallpapers/jurassicstory.webp");
+
+}
+#rickandmorty{
+  background-image: url("wallpapers/rickmorty-1.jpeg");
+
+}
+#spiderman{
+  background-image: url("wallpapers/spiderman.png");
+
+}
+
+#kurzgesagt-1{
+  background-image: url("wallpapers/kurzgesagt-1.png");
+
+}
+#jedi{
+  background-image: url("wallpapers/jedi.webp");
+
+}
 
 #imagecenter{
   text-align: center;

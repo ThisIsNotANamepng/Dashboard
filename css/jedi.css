@@ -1,0 +1,68 @@
+#time{
+  color: white;
+  opacity: 1;
+  font-size: 4em;
+  margin-left: 5%;
+
+
+}
+#day{
+  color: white;
+  opacity: 1;
+  font-size: 2em;
+  margin-left: 8%;
+
+
+}
+
+#imagecenter{
+  text-align: center;
+  margin-right: 20%;
+}
+#myImage{
+  margin-right: 20%;
+  text-align: center;
+
+}
+
+#weather{
+  position: absolute;
+  top: 100%;
+  color: white;
+  font-family: bold;
+  font-size: 6em;
+
+
+}
+body {
+  font-family: myFirstFont;
+  background-image: url("/wallpapers/jedi.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+#main {
+
+}
+#block {
+  font-family: myFirstFont;
+  position: absolute;
+  opacity: 0.8;
+  box-shadow: 10px 10px 20px black;
+  top: 30%;
+  left: 5%;
+  border-radius: 20px;
+  background: rgb(32,121,115);
+  padding: 20px; 
+  width: 40%;
+  height: 30%;  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+  font-family: bold;
+  src: url(/TitilliumWeb-Bold.ttf);
+}
