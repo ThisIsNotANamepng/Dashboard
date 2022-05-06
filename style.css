@@ -2,6 +2,7 @@
   color: white;
   opacity: 1;
   font-size: 4em;
+  margin-left: 5%;
 
 
 }
@@ -9,25 +10,28 @@
   color: white;
   opacity: 1;
   font-size: 2em;
+  margin-left: 8%;
+
 
 }
 
-
-#weat {
-  position: absolute;
-  width: 20%;
-  length: 20%;
-  top: 50%;
-  left: 5%;
+#imagecenter{
+  text-align: center;
+  margin-right: 20%;
+}
+#myImage{
+  margin-right: 20%;
+  text-align: center;
 
 }
 
-#image{
+#weather{
   position: absolute;
-  top: 50%;
-  left: 60%;
-  width: 500px;
-  height: 500px;
+  top: 100%;
+  color: white;
+  font-family: bold;
+  font-size: 6em;
+
 
 }
 body {
@@ -37,7 +41,9 @@ body {
   background-size: 100% 100%;
 
 }
+#main {
 
+}
 #block {
   font-family: myFirstFont;
   position: absolute;
@@ -56,4 +62,7 @@ body {
   font-family: myFirstFont;
   src: url(TitilliumWeb-Regular.ttf);
 }
-
+@font-face {
+  font-family: bold;
+  src: url(TitilliumWeb-Bold.ttf);
+}
