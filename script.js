@@ -9,7 +9,7 @@ function startTime(){
     xmlHttpReq.send(null);
     return xmlHttpReq.responseText;
   }
-  get = (httpGet('https://api.openweathermap.org/data/2.5/weather?lat=43.098640&lon=-88.488660&appid=64d91ce108b52aa8941efd46ddba8ca5&units=imperial'));
+  get = (httpGet('OPENWEATHER_API_URL_HERE'));
   console.log(get)
   const json = JSON.parse(get);
   temp = (json.main.temp);
